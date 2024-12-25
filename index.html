@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MCQ Quiz</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>JAVA OOP MCQ</h1>
+      <form id="quizForm">
+        <!-- Questions will be added here dynamically -->
+      </form>
+      <button type="button" id="finishButton">Finish</button>
+      <button type="button" id="saveButton">Save Progress</button>
+      <button type="button" id="resetButton">Reset Progress</button>
+    </div>
+    <div class="watermark"><p>Made By Maxwell Bro</p></div>
+
+    <!-- Modal for score -->
+    <div id="scoreModal" class="modal">
+      <div class="modal-content">
+        <span id="closeModal" class="close">&times;</span>
+        <h2>Your Score</h2>
+        <p id="scoreMessage"></p>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

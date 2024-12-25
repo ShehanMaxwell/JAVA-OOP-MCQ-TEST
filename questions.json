@@ -1,0 +1,2543 @@
+[
+  {
+    "id": "q1",
+    "question": "What is wrong in the following program?",
+    "code": "class Test { \n  public static void main(String[] args) { \n    try { \n      System.out.println(\"Welcome to Java\"); \n    } \n  } \n}",
+    "options": [
+      {
+        "label": "A",
+        "text": "You cannot have a try block without a catch block or a finally block."
+      },
+      {
+        "label": "B",
+        "text": "A method call that does not declare exceptions cannot be placed inside a try block."
+      },
+      { "label": "C", "text": "Nothing is wrong." },
+      {
+        "label": "D",
+        "text": "You cannot have a try block without a catch block."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q2",
+    "question": "【Single Choice】_______ is a construct that defines objects of the same type.",
+    "options": [
+      { "label": "A", "text": "An object" },
+      { "label": "B", "text": "A class" },
+      { "label": "C", "text": "A data field" },
+      { "label": "D", "text": "A method" }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q3",
+    "question": "【Single Choice】__________ represents an entity in the real world that can be distinctly identified.",
+    "options": [
+      { "label": "A", "text": "A class" },
+      { "label": "B", "text": "A data field" },
+      { "label": "C", "text": "An object" },
+      { "label": "D", "text": "A method" }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "q4",
+    "question": "【Single Choice】An object is an instance of a __________.",
+    "options": [
+      { "label": "A", "text": "program" },
+      { "label": "B", "text": "class" },
+      { "label": "C", "text": "data" },
+      { "label": "D", "text": "method" }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q5",
+    "question": "【Single Choice】You can always use the default constructor even though the non-default constructors are defined in the class.",
+    "options": [
+      { "label": "A", "text": "false" },
+      { "label": "B", "text": "true" }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q6",
+    "question": "【Single Choice】The default constructor has no arguments.",
+    "options": [
+      { "label": "A", "text": "false" },
+      { "label": "B", "text": "true" }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q7",
+    "question": "【Single Choice】________ is invoked to create an object.",
+    "options": [
+      { "label": "A", "text": "A constructor" },
+      { "label": "B", "text": "A method with a return type" },
+      { "label": "C", "text": "The main method" },
+      { "label": "D", "text": "A method with the void return type" }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q8",
+    "question": "【Single Choice】Java assigns a default value to a local variable in a method if the variable is not initialized.",
+    "options": [
+      { "label": "A", "text": "false" },
+      { "label": "B", "text": "true" }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q9",
+    "question": "【Single Choice】Java assigns a default value to a data member of a class if the data is not initialized.",
+    "options": [
+      { "label": "A", "text": "true" },
+      { "label": "B", "text": "false" }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q10",
+    "question": "【Single Choice】The default value for a data member of boolean type is true.",
+    "options": [
+      { "label": "A", "text": "false" },
+      { "label": "B", "text": "true" }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q11",
+    "question": "【Single Choice】The default value for data field of a boolean type, numeric type, object type is ___________, respectively.",
+    "options": [
+      { "label": "A", "text": "false, 0, null" },
+      { "label": "B", "text": "true, 1, null" },
+      { "label": "C", "text": "true, 1, Null" },
+      { "label": "D", "text": "true, 0, null" }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q12",
+    "question": "【Single Choice】Suppose the xMethod() is invoked in the following constructor in a class, xMethod() is _________ in the class.",
+    "code": "public class MyClass { \n  public MyClass() { \n    xMethod(); \n  } \n}",
+    "options": [
+      { "label": "A", "text": "an instance method" },
+      { "label": "B", "text": "a static method" },
+      { "label": "C", "text": "a static method or an instance method" }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "q13",
+    "question": "【Single Choice】Variables that are shared by every instance of a class are __________.",
+    "options": [
+      { "label": "A", "text": "instance variables" },
+      { "label": "B", "text": "private variables" },
+      { "label": "C", "text": "public variables" },
+      { "label": "D", "text": "class variables" }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "q14",
+    "question": "【Single Choice】___________ can be accessed from any static method in the class.",
+    "options": [
+      { "label": "A", "text": "A local variable" },
+      { "label": "B", "text": "An instance variable" },
+      { "label": "C", "text": "A static variable" }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "q15",
+    "question": "【Single Choice】A method that is associated with an individual object is called __________.",
+    "options": [
+      { "label": "A", "text": "an instance method" },
+      { "label": "B", "text": "a static method" },
+      { "label": "C", "text": "a class method" },
+      { "label": "D", "text": "an object method" }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q16",
+    "question": "【Single Choice】A static data field can be accessed from any method in the same class.",
+    "options": [
+      { "label": "A", "text": "True" },
+      { "label": "B", "text": "False" }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q17",
+    "question": "【Single Choice】Suppose the xMethod() is invoked from a main method in a class as follows, xMethod() is _________ in the class.",
+    "code": "public class Test {\n    public static void main(String[] args) {\n        xMethod();\n    }\n}",
+    "options": [
+      { "label": "A", "text": "a static method or an instance method" },
+      { "label": "B", "text": "a static method" },
+      { "label": "C", "text": "an instance method" }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q18",
+    "question": "【Single Choice】You can access a class variable using a syntax like objectName.classVariable or ClassName.classVariable.",
+    "options": [
+      { "label": "A", "text": "false" },
+      { "label": "B", "text": "true" }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q19",
+    "question": "【Single Choice】What is the printout of the third println statement in the main method?",
+    "code": "public class Foo { \n    int i; \n    static int s; \n\n    public static void main(String[] args) { \n        Foo f1 = new Foo(); \n        System.out.println(\"f1.i is \" + f1.i + \" f1.s is \" + f1.s); \n        Foo f2 = new Foo(); \n        System.out.println(\"f2.i is \" + f2.i + \" f2.s is \" + f2.s); \n        Foo f3 = new Foo(); \n        System.out.println(\"f3.i is \" + f3.i + \" f3.s is \" + f3.s); \n    } \n\n    public Foo() { \n        i++; \n        s++; \n    } \n}",
+    "options": [
+      { "label": "A", "text": "f3.i is 1 f3.s is 1" },
+      { "label": "B", "text": "f3.i is 3 f3.s is 3" },
+      { "label": "C", "text": "f3.i is 3 f3.s is 1" },
+      { "label": "D", "text": "f3.i is 1 f3.s is 3" }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "q20",
+    "question": "【Single Choice】A static method in a class can access the instance variables in the same class.",
+    "options": [
+      { "label": "A", "text": "false" },
+      { "label": "B", "text": "true" }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q21",
+    "question": "【Single Choice】Suppose you wish to provide an accessor method for a boolean property finished, what signature of the method should be?",
+    "options": [
+      { "label": "A", "text": "public void isFinished()" },
+      { "label": "B", "text": "public boolean isFinished()" },
+      { "label": "C", "text": "public void getFinished()" },
+      { "label": "D", "text": "public boolean getFinished()" }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q22",
+    "question": "【Single Choice】You cannot use modifiers on local variables inside a method except final.",
+    "options": [
+      { "label": "A", "text": "false" },
+      { "label": "B", "text": "true" }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q23",
+    "question": "【Single Choice】Analyze the following code:",
+    "code": "public class Test { \n    private int t; \n\n    public static void main(String[] args) { \n        int x; \n        System.out.println(t); \n    } \n}",
+    "options": [
+      {
+        "label": "A",
+        "text": "t is non-static and it cannot be referenced in a static context in the main method."
+      },
+      {
+        "label": "B",
+        "text": "The variable t is not initialized and therefore causes errors."
+      },
+      {
+        "label": "C",
+        "text": "The variable t is private and therefore cannot be accessed in the main method."
+      },
+      {
+        "label": "D",
+        "text": "The variable x is not initialized and therefore causes errors."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q24",
+    "question": "【Single Choice】To prevent a class from being instantiated, _____________________",
+    "options": [
+      {
+        "label": "A",
+        "text": "use the public modifier on the constructor."
+      },
+      {
+        "label": "B",
+        "text": "use the private modifier on the constructor."
+      },
+      {
+        "label": "C",
+        "text": "use the static modifier on the constructor."
+      },
+      {
+        "label": "D",
+        "text": "don't use any modifiers on the constructor."
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q25",
+    "question": "【Single Choice】Analyze the following code and choose the best answer:",
+    "code": "public class Foo {\n    private int x;\n\n    public static void main(String[] args) {\n        Foo foo = new Foo();\n        System.out.println(foo.x);\n    }\n}",
+    "options": [
+      {
+        "label": "A",
+        "text": "Since x is an instance variable, it cannot be directly used inside a main method. However, it can be accessed through an object such as foo in this code."
+      },
+      {
+        "label": "B",
+        "text": "Since x is defined in the class Foo, it can be accessed by any method inside the class without using an object. You can write the code to access x without creating an object such as foo in this code."
+      },
+      {
+        "label": "C",
+        "text": "Since x is private, it cannot be accessed from an object foo."
+      },
+      {
+        "label": "D",
+        "text": "You cannot create a self-referenced object; that is, foo is created inside the class Foo."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q26",
+    "question": "【Single Choice】You cannot use the private modifier on classes.",
+    "options": [
+      {
+        "label": "A",
+        "text": "true"
+      },
+      {
+        "label": "B",
+        "text": "false"
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q27",
+    "question": "【Single Choice】Analyze the following code:",
+    "code": "public class Test {\n    public static void main(String args[]) {\n        NClass nc = new NClass();\n        nc.t = nc.t++;\n    }\n}\n\nclass NClass {\n    int t;\n    private NClass() {\n    }\n}",
+    "options": [
+      {
+        "label": "A",
+        "text": "The program compiles, but has a runtime error because t has no initial value."
+      },
+      {
+        "label": "B",
+        "text": "The program compiles and runs fine."
+      },
+      {
+        "label": "C",
+        "text": "The program does not compile because the parameter list of the main method is wrong."
+      },
+      {
+        "label": "D",
+        "text": "The program has a compilation error because the NClass class has a private constructor."
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "q28",
+    "question": "【Single Choice】Suppose you declare Date d. d is now called _______.",
+    "options": [
+      {
+        "label": "A",
+        "text": "an object"
+      },
+      {
+        "label": "B",
+        "text": "a variable that holds an integer value"
+      },
+      {
+        "label": "C",
+        "text": "an object value"
+      },
+      {
+        "label": "D",
+        "text": "a reference variable for an object"
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "q29",
+    "question": "【Single Choice】When invoking a method with an object argument, ___________ is passed.",
+    "options": [
+      {
+        "label": "A",
+        "text": "a copy of the object"
+      },
+      {
+        "label": "B",
+        "text": "the reference of the object"
+      },
+      {
+        "label": "C",
+        "text": "the contents of the object"
+      },
+      {
+        "label": "D",
+        "text": "the object is copied, then the reference of the copied object"
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q30",
+    "question": "【Single Choice】Array variables are reference variables.",
+    "options": [
+      {
+        "label": "A",
+        "text": "false"
+      },
+      {
+        "label": "B",
+        "text": "true"
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q31",
+    "question": "【Single Choice】Given the declaration Circle[ ] x = new Circle[10], which of the following statement is most accurate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "x contains a reference to an array and each element in the array can hold a reference to a Circle object."
+      },
+      {
+        "label": "B",
+        "text": "x contains an array of ten objects of the Circle type."
+      },
+      {
+        "label": "C",
+        "text": "x contains a reference to an array and each element in the array can hold a Circle object."
+      },
+      {
+        "label": "D",
+        "text": "x contains an array of ten int values."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q32",
+    "question": "【Single Choice】What is the output of the following program?",
+    "code": "import java.util.Date;\n\npublic class Test {\n    public static void main(String[] args) {\n        Date date = new Date(1234567);\n        m1(date);\n        System.out.print(date.getTime() + \" \");\n\n        m2(date);\n        System.out.println(date.getTime());\n    }\n\n    public static void m1(Date date) {\n        date = new Date(7654321);\n    }\n\n    public static void m2(Date date) {\n        date.setTime(7654321);\n    }\n}",
+    "options": [
+      {
+        "label": "A",
+        "text": "7654321 7654321"
+      },
+      {
+        "label": "B",
+        "text": "1234567 1234567"
+      },
+      {
+        "label": "C",
+        "text": "7654321 1234567"
+      },
+      {
+        "label": "D",
+        "text": "1234567 7654321"
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "q33",
+    "question": "【Single Choice】What is the value of myCount.count displayed?",
+    "code": "public class Test {\n    public static void main(String[] args) {\n        Count myCount = new Count();\n        int times = 0;\n\n        for (int i = 0; i < 100; i++)\n            increment(myCount, times);\n\n        System.out.println(\"myCount.count = \" + myCount.count);\n        System.out.println(\"times = \" + times);\n    }\n    public static void increment(Count c, int times) {\n        c.count++;\n        times++;\n    }\n}\n\nclass Count {\n    int count;\n\n    Count(int c) {\n        count = c;\n    }\n\n    Count() {\n        count = 1;\n    }\n}",
+    "options": [
+      {
+        "label": "A",
+        "text": "100"
+      },
+      {
+        "label": "B",
+        "text": "98"
+      },
+      {
+        "label": "C",
+        "text": "101"
+      },
+      {
+        "label": "D",
+        "text": "99"
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "q34",
+    "question": "【Single Choice】What is the value of times displayed?",
+    "code": "public class Test {\n    public static void main(String[] args) {\n        Count myCount = new Count();\n        int times = 0;\n\n        for (int i = 0; i < 100; i++)\n            increment(myCount, times);\n\n        System.out.println(\"myCount.count = \" + myCount.count);\n        System.out.println(\"times = \" + times);\n    }\n    public static void increment(Count c, int times) {\n        c.count++;\n        times++;\n    }\n}\n\nclass Count {\n    int count;\n\n    Count(int c) {\n        count = c;\n    }\n\n    Count() {\n        count = 1;\n    }\n}",
+    "options": [
+      {
+        "label": "A",
+        "text": "100"
+      },
+      {
+        "label": "B",
+        "text": "99"
+      },
+      {
+        "label": "C",
+        "text": "101"
+      },
+      {
+        "label": "D",
+        "text": "0"
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "q35",
+    "question": "【Single Choice】An immutable class cannot have _______.",
+    "options": [
+      { "label": "A", "text": "no-arg constructors" },
+      { "label": "B", "text": "public data fields" },
+      { "label": "C", "text": "private data fields" },
+      { "label": "D", "text": "static data fields" }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q36",
+    "question": "【Single Choice】The internal state of an immutable class cannot be changed. String is an immutable class.",
+    "options": [
+      { "label": "A", "text": "false" },
+      { "label": "B", "text": "true" }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q37",
+    "question": "【Single Choice】Which of the following statements is false about an immutable object?",
+    "options": [
+      {
+        "label": "A",
+        "text": "All properties of an immutable object must be of primitive types."
+      },
+      {
+        "label": "B",
+        "text": "All properties of an immutable object must be private."
+      },
+      {
+        "label": "C",
+        "text": "An immutable object contains no mutator methods."
+      },
+      {
+        "label": "D",
+        "text": "An object type property in an immutable object must also be immutable."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q38",
+    "question": "【Single Choice】You can declare two variables with the same name in __________.",
+    "options": [
+      { "label": "A", "text": "different methods in a class" },
+      {
+        "label": "B",
+        "text": "a method one as a formal parameter and the other as a local variable"
+      },
+      { "label": "C", "text": "a block" },
+      {
+        "label": "D",
+        "text": "two nested blocks in a method (two nested blocks means one being inside the other)"
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q39",
+    "question": "【Single Choice】You can declare variables of the same name in a method even though they are in the same block.",
+    "options": [
+      { "label": "A", "text": "true" },
+      { "label": "B", "text": "false" }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q40",
+    "question": "【Single Choice】You can declare variables of the same name in a method if they are in non-nesting blocks.",
+    "options": [
+      { "label": "A", "text": "true" },
+      { "label": "B", "text": "false" }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q41",
+    "question": "【Single Choice】You can declare a local variable in a method that has the same name as an instance variable in the class.",
+    "options": [
+      { "label": "A", "text": "true" },
+      { "label": "B", "text": "false" }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q42",
+    "question": "【Single Choice】Java uses _______ to reference the current object.",
+    "options": [
+      { "label": "A", "text": "null" },
+      { "label": "B", "text": "that" },
+      { "label": "C", "text": "thisObject" },
+      { "label": "D", "text": "this" }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "q43",
+    "question": "【Single Choice】An instance data field f in the class can be referenced using this.f in an instance method in the same class.",
+    "options": [
+      { "label": "A", "text": "True" },
+      { "label": "B", "text": "False" }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q44",
+    "question": "【Single Choice】An instance data field f in the class can be referenced using this.f in a static method in the same class.",
+    "options": [
+      { "label": "A", "text": "True" },
+      { "label": "B", "text": "False" }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q45",
+    "question": "【Single Choice】Which of the following can be placed in the blank line in the following code?",
+    "code": "public class Test {\n    private int id;\n    public void m1() {\n        _____.id = 45;\n    }\n}",
+    "options": [
+      { "label": "A", "text": "Test" },
+      { "label": "B", "text": "this" }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q46",
+    "question": "【Single Choice】Analyze the following code:",
+    "code": "class Test {\n    private double i;\n\n    public Test(double i) {\n        this.t();\n        this.i = i;\n    }\n\n    public Test() {\n        this(1);\n        System.out.println(\"Default constructor\");\n    }\n\n    public void t() {\n        System.out.println(\"Invoking t\");\n    }\n}",
+    "options": [
+      { "label": "A", "text": "this.i may be replaced by i." },
+      { "label": "B", "text": "this(1) must be replaced by this(1.0)." },
+      { "label": "C", "text": "this.t() may be replaced by t()." }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "q47",
+    "question": "【Single Choice】An aggregation relationship is usually represented as __________ in ___________.",
+    "options": [
+      { "label": "A", "text": "a method/the aggregating class" },
+      { "label": "B", "text": "a data field/the aggregated class" },
+      { "label": "C", "text": "a data field/the aggregating class" },
+      { "label": "D", "text": "a method/the aggregated class" }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "q48",
+    "question": "【Single Choice】___________ is attached to the class of the composing class to denote the aggregation relationship with the composed object.",
+    "options": [
+      { "label": "A", "text": "A solid oval" },
+      { "label": "B", "text": "An empty oval" },
+      { "label": "C", "text": "An empty diamond" },
+      { "label": "D", "text": "A solid diamond" }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "q49",
+    "question": "【Single Choice】What is the output of Integer.parseInt(\"10\", 2)?",
+    "options": [
+      { "label": "A", "text": "10" },
+      { "label": "B", "text": "2" },
+      { "label": "C", "text": "1" },
+      { "label": "D", "text": "Invalid statement" }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q50",
+    "question": "【Single Choice】To create an instance of BigDecimal for 454.45, use",
+    "options": [
+      { "label": "A", "text": "BigInteger(454.45);" },
+      { "label": "B", "text": "new BigDecimal(\"454.45\");" },
+      { "label": "C", "text": "BigInteger(\"454.45\");" },
+      { "label": "D", "text": "new BigInteger(454.45);" }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q51",
+    "question": "【Single Choice】What is the output of the following code?",
+    "code": "public class Test {\n    public static void main(String[] args) {\n        java.math.BigInteger x = new java.math.BigInteger(\"3\");\n        java.math.BigInteger y = new java.math.BigInteger(\"7\");\n        x.add(y);\n        System.out.println(x);\n    }\n}",
+    "options": [
+      { "label": "A", "text": "4" },
+      { "label": "B", "text": "10" },
+      { "label": "C", "text": "3" },
+      { "label": "D", "text": "11" }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "q52",
+    "question": "【Single Choice】To add BigInteger b1 to b2, you write _________.",
+    "options": [
+      { "label": "A", "text": "b1 = b2.add(b1);" },
+      { "label": "B", "text": "b2 = b1.add(b2);" },
+      { "label": "C", "text": "b1.add(b2);" },
+      { "label": "D", "text": "b2.add(b1);" }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "q53",
+    "question": "【Single Choice】In JDK 1.5, you may directly assign a primitive data type value to a wrapper object. This is called ______________.",
+    "options": [
+      { "label": "A", "text": "auto casting" },
+      { "label": "B", "text": "auto unboxing" },
+      { "label": "C", "text": "auto conversion" },
+      { "label": "D", "text": "auto boxing" }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "q54",
+    "question": "【Single Choice】Two strings with same contents are ALWAYS allocated to the same object.",
+    "options": [
+      { "label": "A", "text": "false" },
+      { "label": "B", "text": "true" }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q55",
+    "question": "【Single Choice】Which of the following statements is preferred to create a string \"Welcome to Java\"?",
+    "options": [
+      {
+        "label": "A",
+        "text": "String s; s = new String(\"Welcome to Java\");"
+      },
+      { "label": "B", "text": "String s; s = \"Welcome to Java\";" },
+      { "label": "C", "text": "String s = new String(\"Welcome to Java\");" },
+      { "label": "D", "text": "String s = \"Welcome to Java\";" }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "q56",
+    "question": "【Single Choice】Assume s is \"ABCABC\", the method __________ returns a new string \"aBCaBC\".",
+    "options": [
+      { "label": "A", "text": "s.replace('a', 'A')" },
+      { "label": "B", "text": "s.toLowerCase(s)" },
+      { "label": "C", "text": "s.toLowerCase()" },
+      { "label": "D", "text": "s.replace('A', 'a')" }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "q57",
+    "question": "【Single Choice】Which of the following statements convert a double value d into a string s?",
+    "options": [
+      { "label": "A", "text": "s = new Double(d).stringOf();" },
+      { "label": "B", "text": "s = String.stringOf(d);" },
+      { "label": "C", "text": "s = (Double.valueOf(s)).toString();" },
+      { "label": "D", "text": "s = (new Double(d)).toString();" }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "q58",
+    "question": "【Single Choice】Which of the following is the correct statement to return a string from an array a of characters?",
+    "options": [
+      { "label": "A", "text": "convertToString(a)" },
+      { "label": "B", "text": "new String(a)" },
+      { "label": "C", "text": "toString(a)" },
+      { "label": "D", "text": "String.toString(a)" }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q59",
+    "question": "【Single Choice】Assume s is \"ABCABC\", the method __________ returns an array of characters.",
+    "options": [
+      { "label": "A", "text": "String.toChars()" },
+      { "label": "B", "text": "toChars(s)" },
+      { "label": "C", "text": "s.toCharArray()" },
+      { "label": "D", "text": "String.toCharArray()" }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "q60",
+    "question": "【Single Choice】The replace method in the String class replaces a character in the string. So, it does change the content of the string.",
+    "options": [
+      { "label": "A", "text": "true" },
+      { "label": "B", "text": "false" }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q61",
+    "question": "【Single Choice】What is displayed by the following code?",
+    "code": "System.out.print(\"Hi, ABC, good\".matches(\"ABC \") + \" \");\nSystem.out.println(\"Hi, ABC, good\".matches(\".*ABC.*\"));",
+    "options": [
+      { "label": "A", "text": "false true" },
+      { "label": "B", "text": "false false" },
+      { "label": "C", "text": "true true" },
+      { "label": "D", "text": "true false" }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q62",
+    "question": "【Single Choice】What is displayed by the following code?",
+    "code": "String[] tokens = \"A,B;C;D\".split(\"[,;]\");\nfor (int i = 0; i < tokens.length; i++)\n    System.out.print(tokens[i] + \" \");",
+    "options": [
+      { "label": "A", "text": "A B C D" },
+      { "label": "B", "text": "A,B;C;D" },
+      { "label": "C", "text": "A B C;D" },
+      { "label": "D", "text": "A B;C;D" }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q63",
+    "question": "【Single Choice】What is the output of the following code?",
+    "code": "public class Test {\n    public static void main(String[] args) {\n        String s1 = new String(\"Welcome to Java!\");\n        String s2 = new String(\"Welcome to Java!\");\n        if (s1.equals(s2))\n            System.out.println(\"s1 and s2 have the same contents\");\n        else\n            System.out.println(\"s1 and s2 have different contents\");\n    }\n}",
+    "options": [
+      { "label": "A", "text": "s1 and s2 have different contents" },
+      { "label": "B", "text": "s1 and s2 have the same contents" }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q64",
+    "question": "【Single Choice】What is the output of the following code?",
+    "code": "public class Test {\n    public static void main(String[] args) {\n        String s1 = new String(\"Welcome to Java!\");\n        String s2 = new String(\"Welcome to Java!\");\n        if (s1 == s2)\n            System.out.println(\"s1 and s2 reference to the same String object\");\n        else\n            System.out.println(\"s1 and s2 reference to different String objects\");\n    }\n}",
+    "options": [
+      {
+        "label": "A",
+        "text": "s1 and s2 reference to different String objects"
+      },
+      { "label": "B", "text": "s1 and s2 reference to the same String object" }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q65",
+    "question": "【Single Choice】What is the output of the following code?",
+    "code": "public class Test {\n    public static void main(String[] args) {\n        String s1 = new String(\"Welcome to Java!\");\n        String s2 = s1.toUpperCase();\n        if (s1 == s2)\n            System.out.println(\"s1 and s2 reference to the same String object\");\n        else if (s1.equals(s2))\n            System.out.println(\"s1 and s2 have the same contents\");\n        else\n            System.out.println(\"s1 and s2 have different contents\");\n    }\n}",
+    "options": [
+      { "label": "A", "text": "s1 and s2 have the same contents" },
+      { "label": "B", "text": "s1 and s2 have different contents" },
+      { "label": "C", "text": "s1 and s2 reference to the same String object" }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q66",
+    "question": "【Single Choice】You cannot append a string to a string buffer if the resulting new string exceeds the capacity.",
+    "options": [
+      { "label": "A", "text": "false" },
+      { "label": "B", "text": "true" }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q67",
+    "question": "【Single Choice】To get a string from the StringBuffer, you use the toString method.",
+    "options": [
+      { "label": "A", "text": "false" },
+      { "label": "B", "text": "true" }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q68",
+    "question": "【Single Choice】_________ returns the last character in a StringBuilder variable named strBuf?",
+    "options": [
+      { "label": "A", "text": "StringBuilder.charAt(strBuf.length() - 1)" },
+      { "label": "B", "text": "strBuf.charAt(strBuf.capacity() - 1)" },
+      { "label": "C", "text": "StringBuilder.charAt(strBuf.capacity() - 1)" },
+      { "label": "D", "text": "strBuf.charAt(strBuf.length() - 1)" }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "q69",
+    "question": "【Single Choice】Assume StringBuilder strBuf is \"ABCDEFG\", after invoking _________, strBuf contains \"ABCRRRRDEFG\".",
+    "options": [
+      { "label": "A", "text": "strBuf.insert(3, \"RRRR\")" },
+      { "label": "B", "text": "strBuf.insert(4, \"RRRR\")" },
+      { "label": "C", "text": "strBuf.insert(1, \"RRRR\")" },
+      { "label": "D", "text": "strBuf.insert(2, \"RRRR\")" }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q70",
+    "question": "【Single Choice】The following program displays __________.",
+    "code": "public class Test {\n    public static void main(String[] args) {\n        String s = \"Java\";\n        StringBuilder buffer = new StringBuilder(s);\n        change(buffer);\n        System.out.println(buffer);\n    }\n\n    private static void change(StringBuilder buffer) {\n        buffer.append(\" and HTML\");\n    }\n}",
+    "options": [
+      { "label": "A", "text": "Java and HTML" },
+      { "label": "B", "text": "nothing is displayed" },
+      { "label": "C", "text": "Java" },
+      { "label": "D", "text": "and HTML" }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q71",
+    "question": "【Single Choice】The following program displays __________.",
+    "code": "public class Test {\n    public static void main(String[] args) {\n        String s = \"Java\";\n        StringBuilder buffer = new StringBuilder(s);\n        change(s);\n        System.out.println(s);\n    }\n\n    private static void change(String s) {\n        s = s + \" and HTML\";\n    }\n}",
+    "options": [
+      { "label": "A", "text": "Java" },
+      { "label": "B", "text": "Java and HTML" },
+      { "label": "C", "text": "and HTML" },
+      { "label": "D", "text": "nothing is displayed" }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q72",
+    "question": "【Single Choice】Analyze the following code.",
+    "code": "class Test {\n    public static void main(String[] args) {\n        StringBuilder strBuf = new StringBuilder(4);\n        strBuf.append(\"ABCDE\");\n        System.out.println(\"What's strBuf.charAt(5)? \" + strBuf.charAt(5));\n    }\n}",
+    "options": [
+      {
+        "label": "A",
+        "text": "The program has a compilation error because you cannot specify initial capacity in the StringBuilder constructor."
+      },
+      {
+        "label": "B",
+        "text": "The program has a runtime error because the length of the string in the buffer is 5 after \"ABCDE\" is appended into the buffer. Therefore, strBuf.charAt(5) is out of range."
+      },
+      {
+        "label": "C",
+        "text": "The program has a runtime error because the buffer's capacity is 4, but five characters \"ABCDE\" are appended into the buffer."
+      },
+      {
+        "label": "D",
+        "text": "The program compiles and runs fine."
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q73",
+    "question": "【Single Choice】If your string does not require any changes, you should use String rather than StringBuffer to improve performance.",
+    "options": [
+      { "label": "A", "text": "true" },
+      { "label": "B", "text": "false" }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q74",
+    "question": "【Single Choice】Inheritance means ______________.",
+    "options": [
+      {
+        "label": "A",
+        "text": "that a variable of supertype can refer to a subtype object"
+      },
+      { "label": "B", "text": "that a class can contain another class" },
+      { "label": "C", "text": "that data fields should be declared private" },
+      { "label": "D", "text": "that a class can extend another class" }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "q75",
+    "question": "【Single Choice】If a data field is declared in the superclass, you may hide it by redeclaring it in the subclass.",
+    "options": [
+      { "label": "A", "text": "true" },
+      { "label": "B", "text": "false" }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q76",
+    "question": "【Single Choice】What is the output of running class C?",
+    "code": "class A {\n    public A() {\n        System.out.println(\"The default constructor of A is invoked\");\n    }\n}\n\nclass B extends A {\n    public B() {\n        System.out.println(\"The default constructor of B is invoked\");\n    }\n}\n\npublic class C {\n    public static void main(String[] args) {\n        B b = new B();\n    }\n}",
+    "options": [
+      { "label": "A", "text": "\"The default constructor of B is invoked\"" },
+      {
+        "label": "B",
+        "text": "\"The default constructor of B is invoked\" followed by \"The default constructor of A is invoked\""
+      },
+      { "label": "C", "text": "\"The default constructor of A is invoked\"" },
+      {
+        "label": "D",
+        "text": "\"The default constructor of A is invoked\" followed by \"The default constructor of B is invoked\""
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "q77",
+    "question": "【Single Choice】Suppose you create a class Square to be a subclass of GeometricObject. Analyze the following code:",
+    "code": "class Square extends GeometricObject {\n    double length;\n    Square(double length) {\n        GeometricObject(length);\n    }\n}",
+    "options": [
+      {
+        "label": "A",
+        "text": "The program compiles fine, but you cannot create an instance of Square because the constructor does not specify the length of the Square."
+      },
+      {
+        "label": "B",
+        "text": "The program has a compile error because you attempted to invoke the GeometricObject class's constructor illegally."
+      },
+      {
+        "label": "C",
+        "text": "The program compiles fine, but it has a runtime error because of invoking the Square class's constructor illegally."
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q78",
+    "question": "【Single Choice】Which of the following methods override the toString method in the Object class?",
+    "options": [
+      { "label": "A", "text": "public String toString(String s)" },
+      { "label": "B", "text": "public String toString()" },
+      { "label": "C", "text": "public void toString(String s)" },
+      { "label": "D", "text": "public static String toString()" }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q79",
+    "question": "【Single Choice】Analyze the following code:",
+    "code": "public class Test {\n    public static void main(String[] args) {\n        B b = new B();\n        B.m(5);\n        System.out.println(\"i is \" + B.i);\n    }\n}\n\nclass A {\n    int i;\n    public void m(int i) {\n        this.i = i;\n    }\n}\n\nclass B extends A {\n    public void m(String s) {\n    }\n}",
+    "options": [
+      {
+        "label": "A",
+        "text": "The method m is not overridden in B. B inherits the method m from A and defines an overloaded method m in B."
+      },
+      {
+        "label": "B",
+        "text": "The program has a compilation error because m is overridden with a different signature in B."
+      },
+      {
+        "label": "C",
+        "text": "The program has a compilation error, because B.m(5) cannot be invoked since the method m(int) is hidden in B."
+      },
+      {
+        "label": "D",
+        "text": "The program has a runtime error on B.i, because i is not accessible from B."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q80",
+    "question": "【Single Choice】The getValue() method is overridden in two ways. Which one is correct?",
+    "code": "I:\npublic class Test {\n  public static void main(String[] args) {\n    A a = new A();\n    System.out.println(A.getValue());\n  }\n}\n\nclass B {\n  public String getValue() {\n    return \"Any object\";\n  }\n}\n\nclass A extends B {\n  public Object getValue() {\n    return \"A string\";\n  }\n}\n\nII:\npublic class Test {\n  public static void main(String[] args) {\n    A a = new A();\n    System.out.println(A.getValue());\n  }\n}\n\nclass B {\n  public Object getValue() {\n    return \"Any object\";\n  }\n}\n\nclass A extends B {\n  public String getValue() {\n    return \"A string\";\n  }\n}",
+    "options": [
+      { "label": "A", "text": "Both I and II" },
+      { "label": "B", "text": "I" },
+      { "label": "C", "text": "II" },
+      { "label": "D", "text": "Neither" }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "q81",
+    "question": "【Single Choice】Polymorphism means ______________.",
+    "options": [
+      { "label": "A", "text": "that data fields should be declared private" },
+      {
+        "label": "B",
+        "text": "that a variable of supertype can refer to a subtype object"
+      },
+      { "label": "C", "text": "that a class can contain another class" },
+      { "label": "D", "text": "that a class can extend another class" }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q82",
+    "question": "【Single Choice】In OOP, a reference variable can reference a subtype object. This is called _____.",
+    "options": [
+      { "label": "A", "text": "abstraction" },
+      { "label": "B", "text": "encapsulation" },
+      { "label": "C", "text": "polymorphism" },
+      { "label": "D", "text": "inheritance" }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "q83",
+    "question": "【Single Choice】Analyze the following code:",
+    "code": "public class Test {\n    public static void main(String[] args) {\n        new B();\n    }\n}\n\nclass A {\n    int i = 7;\n    public A() {\n        System.out.println(\"i from A is \" + i);\n    }\n    public void setI(int i) {\n        this.i = 2 * i;\n    }\n}\n\nclass B extends A {\n    public B() {\n        setI(20);\n    }\n    public void setI(int i) {\n        this.i = 3 * i;\n    }\n}",
+    "options": [
+      { "label": "A", "text": "The constructor of class A is not called." },
+      {
+        "label": "B",
+        "text": "The constructor of class A is called and it displays \"i from A is 7\"."
+      },
+      {
+        "label": "C",
+        "text": "The constructor of class A is called and it displays \"i from A is 40\"."
+      },
+      {
+        "label": "D",
+        "text": "The constructor of class A is called and it displays \"i from A is 60\"."
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q84",
+    "question": "【Single Choice】Analyze the following code:",
+    "code": "public class Test {\n    public static void main(String[] args) {\n        new B();\n    }\n}\n\nclass A {\n    int i = 7;\n\n    public A() {\n        setI(20);\n        System.out.println(\"i from A is \" + i);\n    }\n\n    public void setI(int i) {\n        this.i = 2 * i;\n    }\n}\n\nclass B extends A {\n    public B() {\n    }\n\n    public void setI(int i) {\n        this.i = 3 * i;\n    }\n}",
+    "options": [
+      {
+        "label": "A",
+        "text": "The constructor of class A is called and it displays \"i from A is 7\"."
+      },
+      {
+        "label": "B",
+        "text": "The constructor of class A is called and it displays \"i from A is 60\"."
+      },
+      { "label": "C", "text": "The constructor of class A is not called." },
+      {
+        "label": "D",
+        "text": "The constructor of class A is called and it displays \"i from A is 40\"."
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "q85",
+    "question": "【Single Choice】What is the output of the following code?",
+    "code": "public class Test {\n    public static void main(String[] args) {\n        new Person().printPerson();\n        new Student().printPerson();\n    }\n}\n\nclass Student extends Person {\n    public String getInfo() {\n        return \"Student\";\n    }\n}\n\nclass Person {\n    public String getInfo() {\n        return \"Person\";\n    }\n\n    public void printPerson() {\n        System.out.println(getInfo());\n    }\n}",
+    "options": [
+      { "label": "A", "text": "Student Student" },
+      { "label": "B", "text": "Student Person" },
+      { "label": "C", "text": "Person Person" },
+      { "label": "D", "text": "Person Student" }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "q86",
+    "question": "【Single Choice】What is the output of the following code?",
+    "code": "public class Test {\n    public static void main(String[] args) {\n        new Person().printPerson();\n        new Student().printPerson();\n    }\n}\n\nclass Student extends Person {\n    private String getInfo() {\n        return \"Student\";\n    }\n}\n\nclass Person {\n    private String getInfo() {\n        return \"Person\";\n    }\n\n    public void printPerson() {\n        System.out.println(getInfo());\n    }\n}",
+    "options": [
+      { "label": "A", "text": "Student Person" },
+      { "label": "B", "text": "Student Student" },
+      { "label": "C", "text": "Person Person" },
+      { "label": "D", "text": "Person Student" }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "q87",
+    "question": "【Single Choice】You can always successfully cast a superclass to a subclass.",
+    "options": [
+      { "label": "A", "text": "true" },
+      { "label": "B", "text": "false" }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q88",
+    "question": "【Single Choice】Analyze the following code:",
+    "code": "public class Test {\n    public static void main(String[] args) {\n        String s = new String(\"Welcome to Java\");\n        Object o = s;\n        String d = (String)o;\n    }\n}",
+    "options": [
+      { "label": "A", "text": "s, o, and d reference the same String object." },
+      {
+        "label": "B",
+        "text": "When assigning s to o in Object o = s, a new object is created."
+      },
+      {
+        "label": "C",
+        "text": "When casting o to s in String d = (String)o, the contents of o is changed."
+      },
+      {
+        "label": "D",
+        "text": "When casting o to s in String d = (String)o, a new object is created."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q89",
+    "question": "【Single Choice】Given two reference variables t1 and t2, if t1.equals(t2) is true, t1 == t2 ___________.",
+    "options": [
+      { "label": "A", "text": "is always true" },
+      { "label": "B", "text": "may be true or false" },
+      { "label": "C", "text": "is always false" }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q90",
+    "question": "【Single Choice】Every class has a toString() method and an equals() method.",
+    "options": [
+      { "label": "A", "text": "true" },
+      { "label": "B", "text": "false" }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q91",
+    "question": "【Single Choice】What is the output of the following code:",
+    "code": "public class Test {\n    public static void main(String[] args) {\n        Object o1 = new Object();\n        Object o2 = new Object();\n        System.out.print((o1 == o2) + \" \" + (o1.equals(o2)));\n    }\n}",
+    "options": [
+      { "label": "A", "text": "false true" },
+      { "label": "B", "text": "false false" },
+      { "label": "C", "text": "true false" },
+      { "label": "D", "text": "true true" }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q92",
+    "question": "【Single Choice】Analyze the following statement:",
+    "code": "class C1 {}\nclass C2 extends C1 {}\nclass C3 extends C1 {}\nC2 c2 = new C2();\nC3 c3 = new C3();\nc2 = (C2)((C1)c3);",
+    "options": [
+      { "label": "A", "text": "The statement is correct." },
+      { "label": "B", "text": "c3 is cast into c2 successfully." },
+      {
+        "label": "C",
+        "text": "You will get a runtime error because the Java runtime system cannot perform multiple casting in nested form."
+      },
+      {
+        "label": "D",
+        "text": "You will get a runtime error because you cannot cast objects from sibling classes."
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "q93",
+    "question": "【Single Choice】Which of the following methods override the equals method in the Object class?",
+    "code": "",
+    "options": [
+      { "label": "A", "text": "public boolean equals(Object o)" },
+      { "label": "B", "text": "public boolean equals(SomeType o)" },
+      { "label": "C", "text": "public void equals(Object o)" },
+      { "label": "D", "text": "public static boolean equals(Object o)" }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q94",
+    "question": "【Single Choice】Analyze the following code.",
+    "code": "class A {\n    int x;\n    public boolean equals(A a) {\n        return this.x == A.x;\n    }\n}\n\n// Program 1\npublic class Test1 {\n    public static void main(String[] args) {\n        Object a1 = new A();\n        Object a2 = new A();\n        System.out.println(a1.equals(a2));\n    }\n}\n\n// Program 2\npublic class Test2 {\n    public static void main(String[] args) {\n        A a1 = new A();\n        A a2 = new A();\n        System.out.println(a1.equals(a2));\n    }\n}",
+    "options": [
+      {
+        "label": "A",
+        "text": "Program 1 displays false and Program 2 displays true"
+      },
+      {
+        "label": "B",
+        "text": "Program 1 displays true and Program 2 displays false"
+      },
+      {
+        "label": "C",
+        "text": "Program 1 displays true and Program 2 displays true"
+      },
+      {
+        "label": "D",
+        "text": "Program 1 displays false and Program 2 displays false"
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "q95",
+    "question": "【Single Choice】Analyze the following code.",
+    "code": "class Circle {\n    double radius;\n    public boolean equals(Object circle) {\n        return this.radius == ((Circle)circle).radius;\n    }\n}\n\n// Program 1\npublic class Test1 {\n    public static void main(String[] args) {\n        Circle circle1 = new Circle();\n        Circle circle2 = new Circle();\n        System.out.println(circle1.equals(circle2));\n    }\n}\n\n// Program 2\npublic class Test2 {\n    public static void main(String[] args) {\n        Circle circle1 = new Circle();\n        Circle circle2 = new Circle();\n        System.out.println(circle1.equals(circle2));\n    }\n}",
+    "options": [
+      {
+        "label": "A",
+        "text": "Program 1 displays true and Program 2 displays false"
+      },
+      {
+        "label": "B",
+        "text": "Program 1 displays true and Program 2 displays true"
+      },
+      {
+        "label": "C",
+        "text": "Program 1 displays false and Program 2 displays true"
+      },
+      {
+        "label": "D",
+        "text": "Program 1 displays false and Program 2 displays false"
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "q96",
+    "question": "【Single Choice】Analyze the following code.",
+    "code": "class A {\n    int x;\n    public boolean equals(Object a) {\n        return this.x == ((A)a).x;\n    }\n}\n\n// Program 1\npublic class Test1 {\n    public static void main(String[] args) {\n        Object a1 = new A();\n        Object a2 = new A();\n        System.out.println(a1.equals(a2));\n    }\n}\n\n// Program 2\npublic class Test2 {\n    public static void main(String[] args) {\n        Object a1 = new A();\n        Object a2 = new A();\n        System.out.println(a1.equals(a2));\n    }\n}",
+    "options": [
+      {
+        "label": "A",
+        "text": "Program 1 displays false and Program 2 displays true"
+      },
+      {
+        "label": "B",
+        "text": "Program 1 displays false and Program 2 displays false"
+      },
+      {
+        "label": "C",
+        "text": "Program 1 displays true and Program 2 displays true"
+      },
+      {
+        "label": "D",
+        "text": "Program 1 displays true and Program 2 displays false"
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q97",
+    "question": "【Single Choice】Analyze the following code.",
+    "code": "class Circle {\n    double radius;\n    public boolean equals(Object circle) {\n        return this.radius == ((Circle)circle).radius;\n    }\n}\n\n// Program 1\npublic class Test1 {\n    public static void main(String[] args) {\n        Object circle1 = new Circle();\n        Circle circle2 = new Circle();\n        System.out.println(circle1.equals(circle2));\n    }\n}\n\n// Program 2\npublic class Test2 {\n    public static void main(String[] args) {\n        Circle circle1 = new Circle();\n        Circle circle2 = new Circle();\n        System.out.println(circle1.equals(circle2));\n    }\n}",
+    "options": [
+      {
+        "label": "A",
+        "text": "Program 1 displays false and Program 2 displays true"
+      },
+      {
+        "label": "B",
+        "text": "Program 1 displays true and Program 2 displays false"
+      },
+      {
+        "label": "C",
+        "text": "Program 1 displays true and Program 2 displays true"
+      },
+      {
+        "label": "D",
+        "text": "Program 1 displays false and Program 2 displays false"
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q98",
+    "question": "【Single Choice】Analyze the following code.",
+    "code": "class Circle {\n    double radius;\n    public boolean equals(Object circle) {\n        return this.radius == ((Circle)circle).radius;\n    }\n}\n\n// Program 1\npublic class Test1 {\n    public static void main(String[] args) {\n        Object circle1 = new Circle();\n        Object circle2 = new Circle();\n        System.out.println(circle1.equals(circle2));\n    }\n}\n\n// Program 2\npublic class Test2 {\n    public static void main(String[] args) {\n        Object circle1 = new Circle();\n        Object circle2 = new Circle();\n        System.out.println(circle1.equals(circle2));\n    }\n}",
+    "options": [
+      {
+        "label": "A",
+        "text": "Program 1 displays true and Program 2 displays true"
+      },
+      {
+        "label": "B",
+        "text": "Program 1 displays false and Program 2 displays false"
+      },
+      {
+        "label": "C",
+        "text": "Program 1 displays false and Program 2 displays true"
+      },
+      {
+        "label": "D",
+        "text": "Program 1 displays true and Program 2 displays false"
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q99",
+    "question": "【Single Choice】The size of ____________ can grow and shrink at runtime.",
+    "code": "",
+    "options": [
+      { "label": "A", "text": "an ArrayList" },
+      { "label": "B", "text": "an array" }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q100",
+    "question": "【Single Choice】You can create an ArrayList using _________.",
+    "code": "",
+    "options": [
+      { "label": "A", "text": "new ArrayList()" },
+      { "label": "B", "text": "new ArrayList[]" },
+      { "label": "C", "text": "ArrayList()" },
+      { "label": "D", "text": "new ArrayList[100]" }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q101",
+    "question": "【Single Choice】Invoking _________ returns the first element in an ArrayList x.",
+    "code": "",
+    "options": [
+      { "label": "A", "text": "x.get(0)" },
+      { "label": "B", "text": "x.get()" },
+      { "label": "C", "text": "x.get(1)" },
+      { "label": "D", "text": "x.first()" }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q102",
+    "question": "【Single Choice】Invoking _________ removes all elements in an ArrayList x.",
+    "code": "",
+    "options": [
+      { "label": "A", "text": "x.clear()" },
+      { "label": "B", "text": "x.remove()" },
+      { "label": "C", "text": "x.clean()" },
+      { "label": "D", "text": "x.delete()" }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q103",
+    "question": "【Single Choice】Invoking _________ returns the number of the elements in an ArrayList x.",
+    "code": "",
+    "options": [
+      { "label": "A", "text": "x.length(1)" },
+      { "label": "B", "text": "x.getSize()" },
+      { "label": "C", "text": "x.size()" },
+      { "label": "D", "text": "x.getLength(0)" }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "q104",
+    "question": "【Single Choice】Suppose an ArrayList list contains {\"red\", \"red\", \"green\"}. What is the list after the following code?",
+    "code": "String element = \"red\";\nfor (int i = 0; i < list.size(); i++)\n    if (list.get(i).equals(element)) {\n        list.remove(element);\n        i--;\n    }",
+    "options": [
+      { "label": "A", "text": "{}" },
+      { "label": "B", "text": "{\"red\", \"red\", \"green\"}" },
+      { "label": "C", "text": "{\"red\", \"green\"}" },
+      { "label": "D", "text": "{\"green\"}" }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "q105",
+    "question": "【Single Choice】What is the output of the following code?",
+    "code": "ArrayList<java.util.Date> list = new ArrayList<>();\njava.util.Date d = new java.util.Date();\nlist.add(d);\nlist.add(d);\nSystem.out.println((list.get(0) == list.get(1)) + \" \" + (list.get(0)).equals(list.get(1)));",
+    "options": [
+      { "label": "A", "text": "false true" },
+      { "label": "B", "text": "true false" },
+      { "label": "C", "text": "false false" },
+      { "label": "D", "text": "true true" }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "q106",
+    "question": "【Single Choice】Suppose ArrayList x contains two strings [Beijing, Singapore]. Which of the following methods will cause the list to become [Beijing, Chicago, Singapore]?",
+    "code": "",
+    "options": [
+      { "label": "A", "text": "x.add(\"Chicago\")" },
+      { "label": "B", "text": "x.add(1, \"Chicago\")" },
+      { "label": "C", "text": "x.add(0, \"Chicago\")" },
+      { "label": "D", "text": "x.add(2, \"Chicago\")" }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q107",
+    "question": "【Single Choice】Show the output of the following code:",
+    "code": "String[] array = {\"red\", \"green\", \"blue\"};\nArrayList<String> list = new ArrayList<>(Arrays.asList(array));\nlist.add(0, \"red\");\nSystem.out.println(list);",
+    "options": [
+      { "label": "A", "text": "[\"red\", \"green\", \"blue\", \"red\"]" },
+      { "label": "B", "text": "[\"red\", \"red\", \"green\", \"blue\"]" },
+      { "label": "C", "text": "[\"red\", \"green\", \"blue\"]" },
+      { "label": "D", "text": "[\"red\", \"green\", \"red\", \"blue\"]" }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q108",
+    "question": "【Single Choice】The printout from the following code is __________.",
+    "code": "java.util.ArrayList<String> list = new java.util.ArrayList<>();\nlist.add(\"New York\");\njava.util.ArrayList<String> list1 = list;\nlist.add(\"Atlanta\");\nlist1.add(\"Dallas\");\nSystem.out.println(list1);",
+    "options": [
+      { "label": "A", "text": "[New York, Dallas]" },
+      { "label": "B", "text": "[New York, Atlanta]" },
+      { "label": "C", "text": "[New York, Atlanta, Dallas]" },
+      { "label": "D", "text": "[New York]" }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "q109",
+    "question": "【Single Choice】Analyze the following code:",
+    "code": "double[] array = {1, 2, 3};\nArrayList<Double> list = new ArrayList<>(Arrays.asList(array));\nSystem.out.println(list);",
+    "options": [
+      { "label": "A", "text": "The code is correct and displays [1, 2, 3]." },
+      {
+        "label": "B",
+        "text": "The code has a compile error because asList(array) requires that the array elements are objects."
+      },
+      {
+        "label": "C",
+        "text": "The code has a compile error because an integer such as 1 is automatically converted into an Integer object, but the array element type is Double."
+      },
+      {
+        "label": "D",
+        "text": "The code is correct and displays [1.0, 2.0, 3.0]."
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q110",
+    "question": "【Single Choice】Analyze the following code:",
+    "code": "Integer[] c = {3, 5};\njava.util.Collections.shuffle(c);\nSystem.out.println(java.util.Arrays.toString(c));",
+    "options": [
+      { "label": "A", "text": "The code is correct and displays [3, 5]." },
+      { "label": "B", "text": "The code is correct and displays [5, 3]." },
+      {
+        "label": "C",
+        "text": "The code has a compile error on Collections.shuffle(c). c cannot be an array."
+      },
+      {
+        "label": "D",
+        "text": "The code has a compile error on Integer[] c = {3, 5}."
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "q111",
+    "question": "【Single Choice】Analyze the following code:",
+    "code": "Double[] array = {1, 2, 3};\nArrayList<Double> list = new ArrayList<>(Arrays.asList(array));\nSystem.out.println(list);",
+    "options": [
+      {
+        "label": "A",
+        "text": "The code is correct and displays [1.0, 2.0, 3.0]."
+      },
+      {
+        "label": "B",
+        "text": "The code has a compile error because asList(array) requires that the array elements are objects."
+      },
+      { "label": "C", "text": "The code is correct and displays [1, 2, 3]." },
+      {
+        "label": "D",
+        "text": "The code has a compile error because an integer such as 1 is automatically converted into an Integer object, but the array element type is Double."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q112",
+    "question": "【Single Choice】Which statements are most accurate regarding the following classes?",
+    "code": "class A {\n    private int i;\n    protected int j;\n}\n\nclass B extends A {\n    private int k;\n    protected int m;\n}",
+    "options": [
+      { "label": "A", "text": "An object of B contains data fields k, m." },
+      {
+        "label": "B",
+        "text": "An object of B contains data fields i, j, k, m."
+      },
+      { "label": "C", "text": "An object of B contains data fields j, m." },
+      { "label": "D", "text": "An object of B contains data fields j, k, m." }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q113",
+    "question": "【Single Choice】Which statements are most accurate regarding the following classes?",
+    "code": "class A {\n    private int i;\n    protected int j;\n}\n\nclass B extends A {\n    private int k;\n    protected int m;\n    // some methods omitted\n}",
+    "options": [
+      {
+        "label": "A",
+        "text": "In the class B, an instance method can only access j, k, m."
+      },
+      {
+        "label": "B",
+        "text": "In the class B, an instance method can only access i, j, k, m."
+      },
+      {
+        "label": "C",
+        "text": "In the class B, an instance method can only access j, m."
+      },
+      {
+        "label": "D",
+        "text": "In the class B, an instance method can only access k, m."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q114",
+    "question": "【Single Choice】The visibility of these modifiers increases in this order:",
+    "code": "",
+    "options": [
+      {
+        "label": "A",
+        "text": "none (if no modifier is used), protected, private, and public."
+      },
+      {
+        "label": "B",
+        "text": "private, none (if no modifier is used), protected, and public."
+      },
+      {
+        "label": "C",
+        "text": "none (if no modifier is used), private, protected, and public."
+      },
+      {
+        "label": "D",
+        "text": "private, protected, none (if no modifier is used), and public."
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q115",
+    "question": "【Single Choice】If a method is declared protected in the superclass, you may declare the method private in the subclass.",
+    "code": "",
+    "options": [
+      { "label": "A", "text": "true" },
+      { "label": "B", "text": "false" }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q116",
+    "question": "【Single Choice】If a method is declared private in the superclass, you may declare the method protected in the subclass.",
+    "code": "",
+    "options": [
+      { "label": "A", "text": "true" },
+      { "label": "B", "text": "false" }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q117",
+    "question": "【Single Choice】Which of the following statements is false?",
+    "code": "",
+    "options": [
+      {
+        "label": "A",
+        "text": "A private method cannot be accessed by a class in a different package."
+      },
+      {
+        "label": "B",
+        "text": "A protected method can be accessed by a subclass in a different package."
+      },
+      {
+        "label": "C",
+        "text": "A public class can be accessed by a class from a different package."
+      },
+      {
+        "label": "D",
+        "text": "A method with no visibility modifier can be accessed by a class in a different package."
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "q118",
+    "question": "【Single Choice】A class design requires that a particular member variable must be accessible by any subclasses of this class, but otherwise not by classes which are not members of the same package. What should be done to achieve this?",
+    "code": "",
+    "options": [
+      { "label": "A", "text": "The variable should be marked public." },
+      {
+        "label": "B",
+        "text": "The variable should be marked private and an accessor method provided."
+      },
+      { "label": "C", "text": "The variable should be marked protected." },
+      {
+        "label": "D",
+        "text": "The variable should have no special access modifier."
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "q119",
+    "question": "【Single Choice】A final class can have instances.",
+    "code": "",
+    "options": [
+      { "label": "A", "text": "false" },
+      { "label": "B", "text": "true" }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q120",
+    "question": "【Single Choice】The presence of the try-catch block imposes overhead when no exception occurs.",
+    "code": "",
+    "options": [
+      { "label": "A", "text": "true" },
+      { "label": "B", "text": "false" }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q121",
+    "question": "【Single Choice】An instance of _________ describes system errors. If this type of error occurs, there is little you can do beyond notifying the user and trying to terminate the program gracefully.",
+    "code": "",
+    "options": [
+      { "label": "A", "text": "NumberFormatException" },
+      { "label": "B", "text": "Throwable" },
+      { "label": "C", "text": "Exception" },
+      { "label": "D", "text": "Error" }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "q122",
+    "question": "【Single Choice】What exception type does the following program throw?",
+    "code": "public class Test {\n    public static void main(String[] args) {\n        Object o = null;\n        System.out.println(o);\n    }\n}",
+    "options": [
+      { "label": "A", "text": "No exception" },
+      { "label": "B", "text": "ArithmeticException" },
+      { "label": "C", "text": "StringIndexOutOfBoundsException" },
+      { "label": "D", "text": "NullPointerException" }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "q123",
+    "question": "【Single Choice】What exception type does the following program throw?",
+    "code": "public class Test {\n    public static void main(String[] args) {\n        int[] list = new int[5];\n        System.out.println(list[5]);\n    }\n}",
+    "options": [
+      { "label": "A", "text": "ClassCastException" },
+      { "label": "B", "text": "StringIndexOutOfBoundsException" },
+      { "label": "C", "text": "ArrayIndexOutOfBoundsException" },
+      { "label": "D", "text": "ArithmeticException" }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "q124",
+    "question": "【Single Choice】What exception type does the following program throw?",
+    "code": "public class Test {\n    public static void main(String[] args) {\n        String s = \"abc\";\n        System.out.println(s.charAt(3));\n    }\n}",
+    "options": [
+      { "label": "A", "text": "No exception" },
+      { "label": "B", "text": "ClassCastException" },
+      { "label": "C", "text": "StringIndexOutOfBoundsException" },
+      { "label": "D", "text": "ArithmeticException" }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "q125",
+    "question": "【Single Choice】What exception type does the following program throw?",
+    "code": "public class Test {\n    public static void main(String[] args) {\n        Object o = new Object();\n        String d = (String) o;\n    }\n}",
+    "options": [
+      { "label": "A", "text": "No exception" },
+      { "label": "B", "text": "ClassCastException" },
+      { "label": "C", "text": "ArithmeticException" },
+      { "label": "D", "text": "ArrayIndexOutOfBoundsException" }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q126",
+    "question": "【Single Choice】What exception type does the following program throw?",
+    "code": "public class Test {\n    public static void main(String[] args) {\n        Object o = null;\n        System.out.println(o.toString());\n    }\n}",
+    "options": [
+      { "label": "A", "text": "NullPointerException" },
+      { "label": "B", "text": "ArrayIndexOutOfBoundsException" },
+      { "label": "C", "text": "ClassCastException" },
+      { "label": "D", "text": "StringIndexOutOfBoundsException" }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q127",
+    "question": "【Single Choice】What exception type does the following program throw?",
+    "code": "public class Test {\n    public static void main(String[] args) {\n        System.out.println(1 / 0);\n    }\n}",
+    "options": [
+      { "label": "A", "text": "ClassCastException" },
+      { "label": "B", "text": "ArrayIndexOutOfBoundsException" },
+      { "label": "C", "text": "StringIndexOutOfBoundsException" },
+      { "label": "D", "text": "ArithmeticException" }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "q128",
+    "question": "【Single Choice】What is displayed on the console when running the following program?",
+    "code": "class Test {\n    public static void main(String[] args) {\n        try {\n            method();\n            System.out.println(\"After the method call\");\n        } catch (RuntimeException ex) {\n            System.out.println(\"RuntimeException\");\n        } catch (Exception ex) {\n            System.out.println(\"Exception\");\n        }\n    }\n    static void method() throws Exception {\n        try {\n            String s = \"5.6\";\n            Integer.parseInt(s);\n            int i = 0;\n            int y = 2 / i;\n            System.out.println(\"Welcome to Java\");\n        } catch (NumberFormatException ex) {\n            System.out.println(\"NumberFormatException\");\n            throw ex;\n        } catch (RuntimeException ex) {\n            System.out.println(\"RuntimeException\");\n        }\n    }\n}",
+    "options": [
+      { "label": "A", "text": "The program has a compilation error." },
+      {
+        "label": "B",
+        "text": "The program displays NumberFormatException followed by After the method call."
+      },
+      {
+        "label": "C",
+        "text": "The program displays NumberFormatException twice."
+      },
+      {
+        "label": "D",
+        "text": "The program displays NumberFormatException followed by RuntimeException."
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "q129",
+    "question": "【Single Choice】What is displayed on the console when running the following program?",
+    "code": "class Test {\n    public static void main(String[] args) {\n        try {\n            System.out.println(\"Welcome to Java\");\n        } finally {\n            System.out.println(\"The finally clause is executed\");\n        }\n    }\n}",
+    "options": [
+      { "label": "A", "text": "Welcome to Java" },
+      {
+        "label": "B",
+        "text": "Welcome to Java followed by The finally clause is executed in the next line"
+      },
+      { "label": "C", "text": "None of the above" },
+      { "label": "D", "text": "The finally clause is executed" }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q130",
+    "question": "【Single Choice】What is displayed on the console when running the following program?",
+    "code": "class Test {\n    public static void main(String[] args) {\n        try {\n            System.out.println(\"Welcome to Java\");\n            int i = 0;\n            int y = 2 / i;\n            System.out.println(\"Welcome to Java\");\n        } catch (RuntimeException ex) {\n            System.out.println(\"Welcome to Java\");\n        } finally {\n            System.out.println(\"End of the block\");\n        }\n    }\n}",
+    "options": [
+      {
+        "label": "A",
+        "text": "The program displays Welcome to Java two times followed by End of the block."
+      },
+      {
+        "label": "B",
+        "text": "The program displays Welcome to Java three times."
+      },
+      {
+        "label": "C",
+        "text": "The program displays Welcome to Java two times."
+      },
+      {
+        "label": "D",
+        "text": "The program displays Welcome to Java three times followed by End of the block."
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "q131",
+    "question": "【Single Choice】What is displayed on the console when running the following program?",
+    "code": "class Test {\n    public static void main(String[] args) {\n        try {\n            method();\n            System.out.println(\"After the method call\");\n        } catch (NumberFormatException ex) {\n            System.out.println(\"NumberFormatException\");\n        } catch (RuntimeException ex) {\n            System.out.println(\"RuntimeException\");\n        }\n    }\n    static void method() {\n        String s = \"5.6\";\n        Integer.parseInt(s); // Cause a NumberFormatException\n        int i = 0;\n        int y = 2 / i;\n        System.out.println(\"Welcome to Java\");\n    }\n}",
+    "options": [
+      {
+        "label": "A",
+        "text": "The program displays NumberFormatException followed by RuntimeException."
+      },
+      {
+        "label": "B",
+        "text": "The program displays NumberFormatException followed by After the method call."
+      },
+      { "label": "C", "text": "The program displays NumberFormatException." },
+      { "label": "D", "text": "The program displays RuntimeException." }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "q132",
+    "question": "【Single Choice】What is displayed on the console when running the following program?",
+    "code": "class Test {\n    public static void main(String[] args) {\n        try {\n            System.out.println(\"Welcome to Java\");\n            int i = 0;\n            double y = 2.0 / i;\n            System.out.println(\"Welcome to HTML\");\n        } finally {\n            System.out.println(\"The finally clause is executed\");\n        }\n    }\n}",
+    "options": [
+      { "label": "A", "text": "None of the above." },
+      { "label": "B", "text": "Welcome to Java." },
+      {
+        "label": "C",
+        "text": "Welcome to Java followed by The finally clause is executed in the next line."
+      },
+      {
+        "label": "D",
+        "text": "The program displays three lines: Welcome to Java, Welcome to HTML, The finally clause is executed."
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "q133",
+    "question": "【Single Choice】What is displayed on the console when running the following program?",
+    "code": "class Test {\n    public static void main(String[] args) {\n        try {\n            System.out.println(\"Welcome to Java\");\n            return;\n        } finally {\n            System.out.println(\"The finally clause is executed\");\n        }\n    }\n}",
+    "options": [
+      { "label": "A", "text": "Welcome to Java" },
+      {
+        "label": "B",
+        "text": "Welcome to Java followed by The finally clause is executed in the next line."
+      },
+      { "label": "C", "text": "The finally clause is executed" },
+      { "label": "D", "text": "None of the above" }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q134",
+    "question": "【Single Choice】What is displayed on the console when running the following program?",
+    "code": "class Test {\n    public static void main(String[] args) {\n        try {\n            System.out.println(\"Welcome to Java\");\n            int i = 0;\n            int y = 2/i;\n            System.out.println(\"Welcome to Java\");\n        } catch (RuntimeException ex) {\n            System.out.println(\"Welcome to Java\");\n        } finally {\n            System.out.println(\"End of the block\");\n        }\n        System.out.println(\"End of the block\");\n    }\n}",
+    "options": [
+      {
+        "label": "A",
+        "text": "The program displays Welcome to Java three times followed by End of the block."
+      },
+      { "label": "B", "text": "You cannot catch RuntimeException errors." },
+      {
+        "label": "C",
+        "text": "The program displays Welcome to Java two times followed by End of the block two times."
+      },
+      {
+        "label": "D",
+        "text": "The program displays Welcome to Java two times followed by End of the block."
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "q135",
+    "question": "【Single Choice】What is displayed on the console when running the following program?",
+    "code": "class Test {\n    public static void main(String[] args) {\n        try {\n            method();\n            System.out.println(\"After the method call\");\n        } catch (RuntimeException ex) {\n            System.out.println(\"RuntimeException\");\n        } catch (Exception ex) {\n            System.out.println(\"Exception\");\n        }\n    }\n    static void method() throws Exception {\n        try {\n            String s = \"5.6\";\n            Integer.parseInt(s); // Cause a NumberFormatException\n            int i = 0;\n            int y = 2 / i;\n            System.out.println(\"Welcome to Java\");\n        } catch (RuntimeException ex) {\n            System.out.println(\"RuntimeException\");\n        } catch (Exception ex) {\n            System.out.println(\"Exception\");\n        }\n    }\n}",
+    "options": [
+      {
+        "label": "A",
+        "text": "The program displays Exception followed by RuntimeException."
+      },
+      { "label": "B", "text": "The program has a compilation error." },
+      {
+        "label": "C",
+        "text": "The program displays RuntimeException followed by After the method call."
+      },
+      { "label": "D", "text": "The program displays RuntimeException twice." }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "q136",
+    "question": "【Single Choice】Which of the following statements are correct?",
+    "options": [
+      { "label": "A", "text": "IV" },
+      { "label": "B", "text": "II" },
+      { "label": "C", "text": "III" },
+      { "label": "D", "text": "I" }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "q137",
+    "question": "【Single Choice】If no exception occurs in a try-catch block, the code in the finally clause ________.",
+    "options": [
+      { "label": "A", "text": "is ignored." },
+      { "label": "B", "text": "is not executed." },
+      { "label": "C", "text": "is executed." },
+      { "label": "D", "text": "may be executed." }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "q138",
+    "question": "【Single Choice】A method must declare to throw ________.",
+    "options": [
+      { "label": "A", "text": "Error" },
+      { "label": "B", "text": "unchecked exceptions" },
+      { "label": "C", "text": "checked exceptions" },
+      { "label": "D", "text": "RuntimeException" }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "q139",
+    "question": "【Single Choice】A method can throw a subclass of RuntimeException.",
+    "options": [
+      { "label": "A", "text": "false" },
+      { "label": "B", "text": "true" }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q140",
+    "question": "【Single Choice】Suppose you enter 34.3 57.8 789, then press the ENTER key. Analyze the following code.",
+    "code": "Scanner input = new Scanner(System.in);\nint v1 = input.nextInt();\nint v2 = input.nextInt();\nString line = input.nextLine();",
+    "options": [
+      { "label": "A", "text": "v1 is 34, v2 is 57, and line is empty." },
+      { "label": "B", "text": "v1 is 34, v2 is 57, and line contains 789." },
+      { "label": "C", "text": "v1 is 34, v2 is 789, and line is empty." },
+      { "label": "D", "text": "v1 is 34, v2 is 57, and line contains 789." }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q141",
+    "question": "【Single Choice】Suppose you enter 34.3 57.8 789, then press the ENTER key. Analyze the following code.",
+    "code": "Scanner input = new Scanner(System.in);\nint v1 = input.nextInt();\nint v2 = input.nextInt();\nString line = input.nextLine();",
+    "options": [
+      {
+        "label": "A",
+        "text": "The program has a runtime error because 34.3 is not an integer."
+      },
+      {
+        "label": "B",
+        "text": "After the last statement is executed, line contains characters '7', '8', '9', '\\n'."
+      },
+      {
+        "label": "C",
+        "text": "After the last statement is executed, v1 is 34."
+      },
+      {
+        "label": "D",
+        "text": "After the last statement is executed, line contains characters '7', '8', '9'."
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q142",
+    "question": "【Single Choice】_________ are unchecked exceptions.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Throwable"
+      },
+      {
+        "label": "B",
+        "text": "Exception"
+      },
+      {
+        "label": "C",
+        "text": "IOException"
+      },
+      {
+        "label": "D",
+        "text": "RuntimeException"
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "q143",
+    "question": "【Single Choice】Analyze the following ",
+    "code": "\nclass Test {\npublic static void main(String[] args)\nthrows MyException {\nSystem.out.println(\"Welcome to Java\");\n}\n}\nclass MyException extends Error { }",
+    "options": [
+      {
+        "label": "A",
+        "text": "The program has a compilation error."
+      },
+      {
+        "label": "B",
+        "text": "You declared an exception in the main method, but you did not throw it."
+      },
+      {
+        "label": "C",
+        "text": "You cannot declare an exception in the main method."
+      },
+      {
+        "label": "D",
+        "text": "You should not declare a class that extends Error, because Error raises a fatal error that terminates the program."
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "q144",
+    "question": "【Single Choice】Analyze the following ",
+    "code": "\npublic static boolean isCorrect() {\ntry {\n// Perform some tasks\n// ...\nreturn true;\n} finally {\nreturn true;\n}",
+    "options": [
+      {
+        "label": "A",
+        "text": "When invoking the isCorrect method, it always returns false."
+      },
+      {
+        "label": "B",
+        "text": "When invoking the isCorrect method, it returns true if no exceptions occur in the method."
+      },
+      {
+        "label": "C",
+        "text": "When invoking the isCorrect method, it always returns true."
+      },
+      {
+        "label": "D",
+        "text": "When invoking the isCorrect method, it returns false if any exceptions occur in the method."
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "q145",
+    "question": "【Single Choice】Analyze the following ",
+    "code": "\nclass Test {\npublic static void main(String[] args) {\ntry {\nString s = \"5.6\";\nInteger.parseInt(s); // Cause a NumberFormatException\nint i = 0;\nint y = 2 / i;\n} catch (Exception ex) {\nSystem.out.println(\"NumberFormatException\");\n} catch (RuntimeException ex) {\nSystem.out.println(\"RuntimeException\");\n}\n}",
+    "options": [
+      {
+        "label": "A",
+        "text": "The program has a compilation error."
+      },
+      {
+        "label": "B",
+        "text": "The program displays RuntimeException."
+      },
+      {
+        "label": "C",
+        "text": "The program displays NumberFormatException followed by RuntimeException."
+      },
+      {
+        "label": "D",
+        "text": "The program displays NumberFormatException."
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "q146",
+    "question": "【Single Choice】A method should not claim Error or RuntimeException in the method declaration, but it may throw exceptions of these types.",
+    "options": [
+      {
+        "label": "A",
+        "text": "false"
+      },
+      {
+        "label": "B",
+        "text": "true"
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q147",
+    "question": "【Single Choice】The following code causes Java to throw _________.\nint number = Integer.MAX_VALUE + 1;",
+    "options": [
+      {
+        "label": "A",
+        "text": "Error"
+      },
+      {
+        "label": "B",
+        "text": "no exceptions"
+      },
+      {
+        "label": "C",
+        "text": "RuntimeException"
+      },
+      {
+        "label": "D",
+        "text": "Exception"
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "q148",
+    "question": "【Single Choice】Which of the following is not an advantage of Java exception handling?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Exception handling improves performance."
+      },
+      {
+        "label": "B",
+        "text": "Exception handling simplifies programming because the error-reporting and error-handling code can be placed at the catch block."
+      },
+      {
+        "label": "C",
+        "text": "Java separates exception handling from normal processing tasks."
+      },
+      {
+        "label": "D",
+        "text": "Exception handling makes it possible for the caller's caller to handle the exception."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q149",
+    "question": "【Single Choice】Analyze the following code:",
+    "code": "\nclass Test {\npublic static void main(String[] args) {\ntry {\nint zero = 0;\nint y = 2/zero;\ntry {\nString s = \"5.6\";\nInteger.parseInt(s); // Cause a NumberFormatException\n} catch(Exception e) { }\n} catch(RuntimeException e) {\nSystem.out.println(e);\n}\n}",
+    "options": [
+      {
+        "label": "A",
+        "text": "A try-catch block cannot be embedded inside another try-catch block."
+      },
+      {
+        "label": "B",
+        "text": "A good programming practice is to avoid nesting try-catch blocks, because nesting makes programs difficult to read. You can rewrite the program using only one try-catch block."
+      },
+      {
+        "label": "C",
+        "text": "The program has a compilation error because Exception appears before RuntimeException."
+      },
+      {
+        "label": "D",
+        "text": "None of the above."
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "q150",
+    "question": "【Single Choice】An instance of _________ describes the errors caused by your program and external circumstances. These errors can be caught and handled by your program.",
+    "options": [
+      {
+        "label": "A",
+        "text": "NumberFormatException"
+      },
+      {
+        "label": "B",
+        "text": "RuntimeException"
+      },
+      {
+        "label": "C",
+        "text": "Error"
+      },
+      {
+        "label": "D",
+        "text": "Exception"
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "q151",
+    "question": "【Single Choice】Which class contains the method for checking whether a file exists?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Scanner"
+      },
+      {
+        "label": "B",
+        "text": "File"
+      },
+      {
+        "label": "C",
+        "text": "System"
+      },
+      {
+        "label": "D",
+        "text": "PrintWriter"
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q152",
+    "question": "【Single Choice】Which method can be used to create an input object for file temp.txt?",
+    "options": [
+      {
+        "label": "A",
+        "text": "new Scanner(File(\"temp.txt\"))"
+      },
+      {
+        "label": "B",
+        "text": "new Scanner(\"temp.txt\")"
+      },
+      {
+        "label": "C",
+        "text": "new Scanner(temp.txt)"
+      },
+      {
+        "label": "D",
+        "text": "new Scanner(new File(\"temp.txt\"))"
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "q153",
+    "question": "【Single Choice】Analyze the following program:",
+    "code": "\nclass Test {\npublic static void main(String[] args) {\ntry {\nString s = \"5.6\";\nInteger.parseInt(s); // Cause a NumberFormatException\nint i = 0;\nint y = 2 / i;\nSystem.out.println(\"Welcome to Java\");\n} catch (Exception ex) {\nSystem.out.println(ex);\n}\n}",
+    "options": [
+      {
+        "label": "A",
+        "text": "An exception is raised due to Integer.parseInt(s);"
+      },
+      {
+        "label": "B",
+        "text": "An exception is raised due to 2 / i;"
+      },
+      {
+        "label": "C",
+        "text": "The program has a compilation error."
+      },
+      {
+        "label": "D",
+        "text": "The program compiles and runs without exceptions."
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q154",
+    "question": "【Single Choice】An exception is always an instance of ___________.",
+    "options": [
+      {
+        "label": "A",
+        "text": "IOException"
+      },
+      {
+        "label": "B",
+        "text": "Throwable"
+      },
+      {
+        "label": "C",
+        "text": "Exception"
+      },
+      {
+        "label": "D",
+        "text": "RuntimeException"
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "q155",
+    "question": "【Single Choice】_________ is the root class of exception classes.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Exception"
+      },
+      {
+        "label": "B",
+        "text": "Throwable"
+      },
+      {
+        "label": "C",
+        "text": "IOException"
+      },
+      {
+        "label": "D",
+        "text": "RuntimeException"
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q156",
+    "question": "【Single Choice】Closing a PrintWriter object ensures that the data in the buffer are sent to the file.",
+    "options": [
+      {
+        "label": "A",
+        "text": "false"
+      },
+      {
+        "label": "B",
+        "text": "true"
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q157",
+    "question": "【Single Choice】If an exception occurs in a try-catch block, the code in the finally clause ________.",
+    "options": [
+      {
+        "label": "A",
+        "text": "is executed"
+      },
+      {
+        "label": "B",
+        "text": "is not executed if the exception is caught."
+      },
+      {
+        "label": "C",
+        "text": "may be executed"
+      },
+      {
+        "label": "D",
+        "text": "is not executed"
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q158",
+    "question": "【Single Choice】An instance of _________ describes programming errors, such as bad casting, accessing an out-of-bounds array, and numeric errors.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Throwable"
+      },
+      {
+        "label": "B",
+        "text": "Exception"
+      },
+      {
+        "label": "C",
+        "text": "Error"
+      },
+      {
+        "label": "D",
+        "text": "RuntimeException"
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "q159",
+    "question": "【Single Choice】Suppose you enter 34.3 57.8 789, then press the ENTER key. Analyze the following ",
+    "code": "\nScanner input = new Scanner(System.in);\ndouble v1 = input.nextDouble();\ndouble v2 = input.nextDouble();\nString line = input.nextLine();",
+    "options": [
+      {
+        "label": "A",
+        "text": "After the last statement is executed, line contains characters ' ', '7', '8', '9'."
+      },
+      {
+        "label": "B",
+        "text": "After the last statement is executed, line contains characters ' ', '7', '8', '9', '\\n'."
+      },
+      {
+        "label": "C",
+        "text": "After the last statement is executed, line contains characters '7', '8', '9', '\\n'."
+      },
+      {
+        "label": "D",
+        "text": "After the last statement is executed, line contains characters '7', '8', '9'."
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q160",
+    "question": "【Single Choice】You must place a method call in a try-catch block if the method claims an exception.",
+    "options": [
+      {
+        "label": "A",
+        "text": "false"
+      },
+      {
+        "label": "B",
+        "text": "true"
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q161",
+    "question": "【Single Choice】What is wrong in the following program?",
+    "code": "\nclass Test {\n    public static void main(String[] args) {\n        try {\n            System.out.println(\"Welcome to Java\");\n        }\n    }\n}",
+    "options": [
+      {
+        "label": "A",
+        "text": "You cannot have a try block without a catch block or a finally block."
+      },
+      {
+        "label": "B",
+        "text": "A method call that does not declare exceptions cannot be placed inside a try block."
+      },
+      {
+        "label": "C",
+        "text": "Nothing is wrong."
+      },
+      {
+        "label": "D",
+        "text": "You cannot have a try block without a catch block."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "q162",
+    "question": "【Single Choice】Which method can be used to read a whole line from the file?",
+    "options": [
+      {
+        "label": "A",
+        "text": "next"
+      },
+      {
+        "label": "B",
+        "text": "nextDouble"
+      },
+      {
+        "label": "C",
+        "text": "nextLine"
+      },
+      {
+        "label": "D",
+        "text": "nextInt"
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "q163",
+    "question": "【Single Choice】Placing an exception class after its superclass in the catch block results in a compilation error.",
+    "options": [
+      {
+        "label": "A",
+        "text": "false"
+      },
+      {
+        "label": "B",
+        "text": "true"
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q164",
+    "question": "【Single Choice】Which method can be used to write data?",
+    "options": [
+      {
+        "label": "A",
+        "text": "rename"
+      },
+      {
+        "label": "B",
+        "text": "print"
+      },
+      {
+        "label": "C",
+        "text": "close"
+      },
+      {
+        "label": "D",
+        "text": "exist"
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q165",
+    "question": "【Single Choice】Which class do you use to write data into a text file?",
+    "options": [
+      {
+        "label": "A",
+        "text": "File"
+      },
+      {
+        "label": "B",
+        "text": "PrintWriter"
+      },
+      {
+        "label": "C",
+        "text": "System"
+      },
+      {
+        "label": "D",
+        "text": "Scanner"
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "q166",
+    "question": "【Single Choice】Which class do you use to read data from a text file?",
+    "options": [
+      {
+        "label": "A",
+        "text": "File"
+      },
+      {
+        "label": "B",
+        "text": "Scanner"
+      },
+      {
+        "label": "C",
+        "text": "PrintWriter"
+      },
+      {
+        "label": "D",
+        "text": "System"
+      }
+    ],
+    "correctAnswer": "B"
+  }
+]
