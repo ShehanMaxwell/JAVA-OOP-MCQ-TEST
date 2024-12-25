@@ -319,12 +319,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Function to reset progress
   function resetProgress() {
+    // Remove saved answers from localStorage
     localStorage.removeItem('quizAnswers');
+
+    // Uncheck all options
     document.querySelectorAll('.question').forEach((question) => {
       question.querySelectorAll('input').forEach((input) => {
-        input.checked = false; // Uncheck all options
+        input.checked = false;
+      });
+
+      // Reset label colors to default
+      question.querySelectorAll('label').forEach((label) => {
+        label.style.color = ''; // Reset color
       });
     });
+
     alert('Progress reset!');
   }
 });
