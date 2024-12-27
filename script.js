@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
           q1: 'A',
           q2: 'B',
           q3: 'C',
-          q4: 'A',
+          q4: 'B',
           q5: 'B',
           q6: 'A',
           q7: 'A',
