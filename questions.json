@@ -57,8 +57,8 @@
     "id": "q5",
     "question": "【Single Choice】You can always use the default constructor even though the non-default constructors are defined in the class.",
     "options": [
-      { "label": "A", "text": "false" },
-      { "label": "B", "text": "true" }
+      { "label": "A", "text": "true" },
+      { "label": "B", "text": "false" }
     ],
     "correctAnswer": "A"
   },
