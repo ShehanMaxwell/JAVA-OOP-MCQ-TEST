@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const answers = {
           q1: 'A',
           q2: 'B',
-          q3: 'B',
+          q3: 'C',
           q4: 'A',
           q5: 'B',
           q6: 'A',
