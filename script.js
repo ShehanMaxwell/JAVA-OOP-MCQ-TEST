@@ -263,7 +263,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         // Display the score in the modal
-        scoreMessage.textContent = `Your score is: ${score} out of 167`;
+        scoreMessage.textContent = `Your score is: ${score} out of 166`;
 
         // Show the modal
         modal.style.display = 'block';
