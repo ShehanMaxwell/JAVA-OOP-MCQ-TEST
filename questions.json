@@ -1781,7 +1781,7 @@
         "text": "The program displays NumberFormatException followed by RuntimeException."
       }
     ],
-    "correctAnswer": "D"
+    "correctAnswer": "B"
   },
   {
     "id": "q129",

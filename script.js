@@ -191,7 +191,7 @@ document.addEventListener('DOMContentLoaded', () => {
           q125: 'B',
           q126: 'A',
           q127: 'D',
-          q128: 'D',
+          q128: 'B',
           q129: 'B',
           q130: 'C',
           q131: 'C',
