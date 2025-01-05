@@ -1546,7 +1546,7 @@
       { "label": "C", "text": "An object of B contains data fields j, m." },
       { "label": "D", "text": "An object of B contains data fields j, k, m." }
     ],
-    "correctAnswer": "B"
+    "correctAnswer": "D"
   },
   {
     "id": "q113",
