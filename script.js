@@ -216,7 +216,7 @@ document.addEventListener('DOMContentLoaded', () => {
           q150: 'D',
           q151: 'B',
           q152: 'D',
-          q153: 'B',
+          q153: 'A',
           q154: 'C',
           q155: 'B',
           q156: 'B',
