@@ -160,7 +160,7 @@ document.addEventListener('DOMContentLoaded', () => {
           q94: 'D',
           q95: 'B',
           q96: 'C',
-          q97: 'A',
+          q97: 'C',
           q98: 'B',
           q99: 'A',
           q100: 'A',
