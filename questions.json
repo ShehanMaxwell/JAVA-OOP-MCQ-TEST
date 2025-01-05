@@ -2036,7 +2036,7 @@
         "text": "You should not declare a class that extends Error, because Error raises a fatal error that terminates the program."
       }
     ],
-    "correctAnswer": "D"
+    "correctAnswer": "B"
   },
   {
     "id": "q144",
