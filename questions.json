@@ -1118,7 +1118,7 @@
         "text": "The constructor of class A is called and it displays \"i from A is 40\"."
       }
     ],
-    "correctAnswer": "D"
+    "correctAnswer": "B"
   },
   {
     "id": "q85",
