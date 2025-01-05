@@ -701,7 +701,7 @@
       { "label": "C", "text": "b1.add(b2);" },
       { "label": "D", "text": "b2.add(b1);" }
     ],
-    "correctAnswer": "A"
+    "correctAnswer": "B"
   },
   {
     "id": "q53",
