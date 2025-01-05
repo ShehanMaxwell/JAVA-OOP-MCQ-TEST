@@ -1676,7 +1676,7 @@
       { "label": "A", "text": "true" },
       { "label": "B", "text": "false" }
     ],
-    "correctAnswer": "B"
+    "correctAnswer": "A"
   },
   {
     "id": "q121",
