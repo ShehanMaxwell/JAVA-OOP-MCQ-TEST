@@ -1915,11 +1915,12 @@
   {
     "id": "q136",
     "question": "【Single Choice】Which of the following statements are correct?",
+    "code": "class Test {\n    public static void main(String[] args) {\n        // I\n        File file = new File(\"input.txt\");\n        try (Scanner input = new Scanner(file)) {\n            String line = input.nextLine();\n        }\n\n        // II\n        try (File file = new File(\"input.txt\");\n             Scanner input = new Scanner(file)) {\n            String line = input.nextLine();\n        }\n\n        // III\n        File file;\n        try (file = new File(\"input.txt\");\n             Scanner input = new Scanner(file)) {\n            String line = input.nextLine();\n        }\n\n        // IV\n        File file;\n        Scanner input;\n        try (file = new File(\"input.txt\");\n             input = new Scanner(file)) {\n            String line = input.nextLine();\n        }\n    }\n}",
     "options": [
-      { "label": "A", "text": "IV" },
+      { "label": "A", "text": "I" },
       { "label": "B", "text": "II" },
       { "label": "C", "text": "III" },
-      { "label": "D", "text": "I" }
+      { "label": "D", "text": "IV" }
     ],
     "correctAnswer": "D"
   },
