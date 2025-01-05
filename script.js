@@ -203,7 +203,7 @@ document.addEventListener('DOMContentLoaded', () => {
           q137: 'C',
           q138: 'C',
           q139: 'B',
-          q140: 'B',
+          q140: 'A',
           q141: 'B',
           q142: 'D',
           q143: 'D',

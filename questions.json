@@ -1965,7 +1965,7 @@
       { "label": "C", "text": "v1 is 34, v2 is 789, and line is empty." },
       { "label": "D", "text": "v1 is 34, v2 is 57, and line contains 789." }
     ],
-    "correctAnswer": "B"
+    "correctAnswer": "A"
   },
   {
     "id": "q141",
